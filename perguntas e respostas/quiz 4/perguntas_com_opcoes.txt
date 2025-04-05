@@ -1,0 +1,211 @@
+"""Segundo Martin Fowler, quais as razões pelas quais ele demonstra desconforto com o termo 'arquitetura de software'?
+
+* Ele acredita que o termo é muito novo e ainda não possui um significado bem definido na indústria.
+* **O termo evoca a imagem de arquitetos que definem regras e padrões sem experiência prática recente em programação.**
+* **O termo pode sugerir uma separação indesejável entre o papel de arquiteto e o de desenvolvedor.**
+* Ele considera que o termo enfatiza demasiadamente o aspecto visual e diagramático do software.""",
+
+"""De acordo com Martin Fowler, qual a importância do código na perspectiva da comunidade open source?
+
+* O código é importante apenas como um meio de entregar funcionalidades aos usuários.
+* A qualidade do código é menos relevante do que a rapidez na entrega de novas versões.
+* **O código é fundamental, e profissionais técnicos devem ter familiaridade e conforto com a programação.**
+* O design da arquitetura deve ser priorizado e completamente definido antes da escrita do código.""",
+
+"""Na visão de Ralph Johnson, apresentada por Martin Fowler, quais elementos são cruciais para definir a arquitetura de um projeto de software saudável?
+
+* A utilização de ferramentas e tecnologias de ponta.
+* A existência de uma equipe de arquitetura formalmente designada.
+* **O entendimento comum de como o sistema funciona entre os desenvolvedores experientes.**
+* **A natureza social e colaborativa da compreensão da estrutura do software.**""",
+
+"""Ainda segundo Ralph Johnson, como Martin Fowler interpreta a relação entre os diagramas e a documentação da arquitetura e a arquitetura real de um sistema?
+
+* Os diagramas e a documentação constituem a arquitetura formal e completa do sistema.
+* A qualidade da arquitetura pode ser medida pela abrangência e detalhe da sua documentação.
+* **Os diagramas e documentos são representações da arquitetura, frequentemente imperfeitas.**
+* **O valor principal reside no entendimento compartilhado, e a documentação é um artefato secundário.**""",
+
+"""De acordo com Martin Fowler, quais perspectivas são importantes para entender a arquitetura de software, além do entendimento compartilhado?
+
+* A conformidade com normas e padrões de mercado reconhecidos.
+* A escolha de uma linguagem de programação robusta e escalável.
+* **As decisões de design que são difíceis de modificar em um estágio posterior do projeto.**
+* **As preocupações que são consideradas mais importantes pela liderança técnica do projeto.**""",
+
+"""Ao se deparar com a afirmação 'não se preocupem tanto com modularidade, precisamos entregar funcionalidades', quais as consequências negativas que Martin Fowler associa a essa mentalidade?
+
+* Aumento inicial da velocidade de entrega de funcionalidades.
+* Melhoria da qualidade interna do código devido ao foco na funcionalidade.
+* **Acúmulo de dificuldades para adicionar novas funcionalidades no futuro.**
+* **Potencial comprometimento da capacidade de responder a mudanças e manter a competitividade a longo prazo.**""",
+
+"""Segundo Martin Fowler, qual a principal mensagem da 'hipótese da estamina de design'?
+
+* Projetos com foco inicial em design entregam menos funcionalidades a curto prazo.
+* A refatoração contínua garante que a velocidade de desenvolvimento se mantenha constante.
+* **A negligência do design leva a uma progressiva dificuldade e lentidão na adição de novas funcionalidades.**
+* **Um bom design inicial garante que o software seja sempre fácil de manter e evoluir.**""",
+
+"""De acordo com Martin Fowler, qual o argumento econômico mais forte para investir em boa arquitetura de software?
+
+* A redução imediata dos custos de desenvolvimento.
+* A diminuição da necessidade de testes e controle de qualidade.
+* **A sustentação da capacidade de entregar novas funcionalidades de forma eficiente e rápida ao longo do tempo.**
+* **A proteção contra a obsolescência tecnológica e a garantia de longevidade do software.**""",
+
+"""Na visão de Martin Fowler, seguindo a definição de Ralph Johnson, qual a essência da definição de arquitetura de software?
+
+* A estrutura bem definida dos componentes e suas interações.
+* O conjunto de decisões estratégicas tomadas no início do projeto.
+* **A identificação e o tratamento das partes mais importantes do sistema.**
+* **A priorização das qualidades não funcionais do software, como escalabilidade e segurança.**""",
+
+"""Segundo Martin Fowler, por que a 'qualidade interna' do software, promovida por uma boa arquitetura, é crucial a longo prazo, mesmo não sendo visível externamente?
+
+* Ela garante a satisfação imediata dos usuários com a performance do sistema.
+* **Ela influencia diretamente a facilidade e o custo de realizar mudanças e adicionar novas funcionalidades.**
+* **Ela permite que o software se adapte mais facilmente a novas tecnologias e requisitos.**
+* Ela simplifica a comunicação e a colaboração dentro da equipe de desenvolvimento.""",
+"""De acordo com Dave Farley, qual a definição de dívida técnica apresentada por Ward Cunningham?
+
+* A quantidade total de dinheiro gasto em manutenção corretiva de um sistema.
+* O número de bugs conhecidos e não corrigidos em um software.
+* **O custo implícito de retrabalho adicional causado por escolher uma solução fácil ou limitada agora, em vez de uma abordagem melhor que levaria mais tempo.**
+* A diferença entre o tempo estimado para desenvolver um software e o tempo real gasto.""",
+
+"""Segundo Dave Farley, quais são as semelhanças entre dívida técnica e dívida financeira?
+
+* Ambas sempre levam à falência se não forem pagas rapidamente.
+* Ambas podem ser facilmente rastreadas e gerenciadas com ferramentas financeiras.
+* **Se não forem pagas, ambas podem acumular "juros", tornando as coisas mais difíceis no futuro.**
+* **Em certas situações, contrair ambas pode ser uma decisão estratégica e benéfica.**""",
+
+"""Na analogia de Dave Farley, em que aspecto crucial a dívida técnica se diferencia significativamente da dívida financeira tradicional?
+
+* Na possibilidade de renegociação dos termos da dívida.
+* Na clareza dos prazos e das consequências do não pagamento.
+* **Na forma como o "credor" lida com a dívida; na dívida técnica, o "empréstimo" é feito a nós mesmos no futuro, tornando a cobrança menos rigorosa.**
+* Na existência de mecanismos formais para declarar "bancarrota" em ambos os cenários.""",
+
+"""De acordo com Dave Farley, quais são as possíveis consequências de uma base de código com alta dívida técnica?
+
+* Aumento da motivação da equipe devido aos desafios técnicos.
+* Melhoria da performance do sistema ao longo do tempo.
+* **Dificuldade crescente para realizar mudanças e adicionar novas funcionalidades.**
+* **Aumento do tempo e do custo necessários para corrigir bugs e manter o sistema.**
+* **Possibilidade de o desenvolvimento de novas funcionalidades ser mais lento do que a correção de problemas existentes.**""",
+
+"""Segundo Dave Farley, qual fator principal impulsiona a necessidade de "pagar" a dívida técnica em um projeto de software?
+
+* O desejo de manter o código esteticamente agradável.
+* A pressão da gerência para evitar custos futuros.
+* **A urgência e a utilidade de realizar mudanças ou melhorias em partes específicas do sistema.**
+* A necessidade de cumprir um cronograma de refatoração predefinido.""",
+
+"""Na analogia de Dave Farley sobre os "tipos de credores" da dívida técnica, qual situação se assemelha a "emprestar de um amigo ou familiar compreensivo"?
+
+* Adotar testes automatizados rigorosos desde o início do projeto.
+* **Escrever código que funciona, mas não é ideal em termos de design, em uma parte do sistema que não muda com frequência.**
+* Não realizar testes e adotar uma abordagem puramente tática para as mudanças.
+* Deferir o uso de testes automatizados, cobrindo com testes manuais.""",
+
+"""Ainda na analogia de Dave Farley, qual cenário corresponde a "emprestar de um banco"?
+
+* Ignorar completamente a realização de testes.
+* **Deferir o uso de testes automatizados, mas utilizar testes manuais.**
+* Criar uma arquitetura complexa e excessivamente projetada.
+* Refatorar o código constantemente, mesmo sem necessidade imediata.""",
+
+"""Segundo Dave Farley, qual a característica da situação de "emprestar de um agiota" no contexto da dívida técnica?
+
+* A cobrança de juros baixos e prazos de pagamento flexíveis.
+* A priorização da qualidade do código acima da velocidade de entrega.
+* **A ausência de testes e design, adotando uma abordagem puramente tática para as mudanças.**
+* O investimento contínuo em melhorias incrementais no sistema.""",
+
+"""Quais são as causas de dívida técnica mencionadas por Dave Farley?
+
+* A falta de comunicação eficaz entre a equipe de desenvolvimento e o cliente.
+* A rotatividade excessiva de membros da equipe.
+* **O crescimento incremental de "cruft" (deterioração do código).**
+* **A falha em iniciar e manter um senso de design ao longo da vida do sistema.**
+* **Pressões de negócios (prazos apertados que levam a soluções rápidas e de baixa qualidade).**
+* Adoção de tecnologias muito recentes e não comprovadas.""",
+
+"""De acordo com Dave Farley, qual a abordagem mais eficaz para manter a capacidade de produzir software de forma eficiente a longo prazo?
+
+* Priorizar a entrega rápida de funcionalidades, adiando preocupações com a qualidade do código.
+* Adicionar mais desenvolvedores à equipe para aumentar a velocidade de produção, mesmo que isso aumente a complexidade.
+* **Trabalhar com alta qualidade, minimizando sempre a dívida técnica, para que o código seja um lugar de trabalho de alta qualidade e facilmente mantido.**
+* Focar na correção de bugs críticos antes de iniciar o desenvolvimento de novas funcionalidades.""",
+
+"""Segundo o palestrante em 'transciptQuiz2.txt', qual o princípio fundamental de um bom design de API?
+
+* Uma API deve ser extensível para acomodar futuras funcionalidades.
+* **Uma API deve fazer uma coisa e fazê-la bem.**
+* Uma API deve expor o máximo possível da funcionalidade subjacente.
+* Uma API deve ser otimizada para o máximo desempenho desde o início.""",
+
+"""Ainda de acordo com o palestrante, qual a implicação prática do princípio 'uma API deve fazer uma coisa e fazê-la bem'?
+
+* A API deve ter um grande número de métodos para cobrir todas as necessidades possíveis.
+* **A funcionalidade da API deve ser fácil de explicar.**
+* A API deve ser implementada utilizando as tecnologias mais recentes e complexas.
+* A API deve ser capaz de lidar com múltiplos casos de uso simultaneamente.""",
+
+"""Na visão do palestrante, qual o papel dos nomes de classes e métodos em uma API?
+
+* Os nomes são apenas rótulos e não influenciam o design.
+* **Os nomes comunicam o propósito e a funcionalidade da API.**
+* Nomes curtos e concisos são sempre preferíveis para facilitar a digitação.
+* Nomes complexos e detalhados garantem uma melhor compreensão da API.""",
+
+"""Qual o conselho crucial sobre o tamanho de uma API apresentado no 'transciptQuiz2.txt'?
+
+* Uma API deve ser o maior possível para oferecer o máximo de funcionalidades.
+* Uma API deve ser mantida pequena para facilitar a aprendizagem e o uso.
+* **Uma API deve ser tão pequena quanto possível, mas não menor do que o necessário para satisfazer seus requisitos.**
+* O tamanho de uma API não é um fator importante em seu design.""",
+
+"""Segundo o palestrante, qual a consequência de incluir detalhes de implementação na API?
+
+* Melhora a transparência e permite que os usuários otimizem seu uso.
+* Facilita a evolução da API, pois os usuários dependem de detalhes específicos.
+* **Confunde os usuários e inibe a liberdade dos implementadores de alterar a implementação no futuro.**
+* Garante que a API seja mais performática, pois os usuários conhecem os mecanismos internos.""",
+
+"""De acordo com o palestrante, por que é importante minimizar a acessibilidade (tornar classes, membros e campos o mais privados possível)?
+
+* Aumenta a complexidade do código e dificulta o entendimento.
+* Dificulta a reutilização de componentes em diferentes partes do sistema.
+* **Maximiza o encapsulamento (information hiding) e minimiza o acoplamento entre APIs.**
+* Melhora a performance do sistema, pois evita o acesso desnecessário a membros internos.""",
+
+"""Qual a importância da consistência e da simetria nos nomes de uma API, segundo o palestrante?
+
+* Nomes inconsistentes e assimétricos tornam a API mais expressiva.
+* A inconsistência permite distinguir nuances de significado com mais facilidade.
+* **Nomes consistentes e simétricos tornam a API mais fácil de aprender e usar, e o código mais legível.**
+* A simetria excessiva pode levar à criação de métodos desnecessários.""",
+
+"""Segundo o palestrante, qual o papel da documentação em uma API?
+
+* A documentação é um requisito burocrático e não essencial para o uso da API.
+* A leitura do código fonte é suficiente para entender o funcionamento da API.
+* **A documentação é crucial para o reuso da API, complementando um bom design.**
+* A documentação deve focar apenas nos aspectos mais complexos da API.""",
+
+"""Qual o significado do princípio de 'fail fast' no design de métodos de API, conforme apresentado?
+
+* Os métodos devem tentar se recuperar de erros silenciosamente.
+* Os erros devem ser tratados apenas no nível mais alto da aplicação.
+* **Os erros devem ser reportados ao usuário da API o mais cedo possível após ocorrerem.**
+* Os métodos devem lançar exceções apenas em situações críticas de falha do sistema.""",
+
+"""De acordo com o palestrante, por que evitar que o cliente faça coisas que o módulo poderia fazer é um princípio importante no design de APIs?
+
+* Isso incentiva os clientes a entenderem melhor o funcionamento interno do módulo.
+* **Isso evita a criação de código boilerplate (repetitivo), que é propenso a erros, feio e irritante.**
+* Isso permite que os clientes personalizem o comportamento do módulo de acordo com suas necessidades específicas.
+* Isso simplifica a implementação do módulo, transferindo responsabilidades para o cliente.""",

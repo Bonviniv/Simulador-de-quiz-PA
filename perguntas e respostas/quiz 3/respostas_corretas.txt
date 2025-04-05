@@ -1,0 +1,6 @@
+  ["A dívida técnica representa o custo implícito de retrabalho adicional causado por escolher uma solução fácil ou limitada agora, em vez de uma abordagem melhor que levaria mais tempo.", "Se a dívida técnica não for paga, ela pode acumular juros, tornando mais difícil implementar mudanças ao longo do tempo."],
+    ["Na forma como o \"credor\" lida com a dívida; na dívida técnica, o \"empréstimo\" é feito a nós mesmos no futuro, tornando a cobrança menos rigorosa."],
+    ["A qualidade interna remove a \"cruft\" (deficiências internas) que torna mais lento o desenvolvimento de novas funcionalidades, diminuindo assim o custo de aprimorar o software."],
+    ["Um banco, onde há juros a pagar (o custo do teste manual aumenta com o crescimento do sistema) e a falta de pagamento pode levar à estagnação."],
+    ["O crescimento incremental de \"cruft\" (às vezes chamado de \"bit rot\").", "A falha em iniciar e manter um senso de design ao longo da vida do sistema.", "Pressões de negócios (prazos apertados que levam a soluções rápidas e de baixa qualidade)."],
+    ["Trabalhar com alta qualidade, minimizando sempre a dívida técnica, para que o código seja um lugar de trabalho de alta qualidade e facilmente mantido."],

@@ -1,0 +1,42 @@
+ """Ao considerar a metáfora da dívida técnica, quais das seguintes afirmações são verdadeiras de acordo com os materiais fornecidos?
+     A dívida técnica é sempre uma má decisão e deve ser evitada a todo custo.
+
+    * **A dívida técnica representa o custo implícito de retrabalho adicional causado por escolher uma solução fácil ou limitada agora, em vez de uma abordagem melhor que levaria mais tempo.**
+    * **Se a dívida técnica não for paga, ela pode acumular juros, tornando mais difícil implementar mudanças ao longo do tempo.**
+    * Pagar a dívida técnica tem sempre um retorno imediato e mensurável.""",
+
+    """De acordo com Dave Farley, no material de áudio transcrito, em que aspecto a analogia entre dívida técnica e dívida financeira se diferencia significativamente?
+   
+    * No fato de que ambas podem levar à "bancarrota" (um código base difícil de mudar).
+    * No fato de que ambas podem ser boas em certas situações (como um empréstimo para comprar um bem).
+    * **Na forma como o "credor" lida com a dívida; na dívida técnica, o "empréstimo" é feito a nós mesmos no futuro, tornando a cobrança menos rigorosa.**
+    * Na existência de diferentes tipos de "credores" (amigos, bancos, agiotas) em ambas as situações.""",
+    
+    """Martin Fowler menciona que a qualidade interna do software tem um impacto nos custos de desenvolvimento de novas funcionalidades. Qual é a sua principal alegação?
+    
+    * Aumentar a qualidade invariavelmente aumenta os custos de desenvolvimento.
+    * Manter a qualidade interna não tem impacto significativo na velocidade de desenvolvimento futuro.
+    * **A qualidade interna remove a "cruft" (deficiências internas) que torna mais lento o desenvolvimento de novas funcionalidades, diminuindo assim o custo de aprimorar o software.**
+    * É sempre melhor priorizar o lançamento de funcionalidades em detrimento da qualidade do código.""",
+   
+   """Dave Farley descreve diferentes "tipos de credores" na metáfora da dívida técnica. Qual das seguintes opções corresponde à situação de não fazer testes automatizados, mas utilizar testes manuais?
+    
+    * Um amigo ou familiar compreensivo.
+    * **Um banco, onde há juros a pagar (o custo do teste manual aumenta com o crescimento do sistema) e a falta de pagamento pode levar à estagnação.**
+    * Um agiota, onde os juros são extremos e as consequências severas (não fazer testes nem design).
+    * Um investidor paciente disposto a esperar pelo retorno.""",
+    
+    """Quais são as causas de dívida técnica mencionadas nos materiais?
+    
+    * Apenas decisões deliberadas de sacrificar a qualidade por velocidade.
+    * **O crescimento incremental de "cruft" (às vezes chamado de "bit rot").**
+    * **A falha em iniciar e manter um senso de design ao longo da vida do sistema.**
+    * A garantia de que o software estará sempre livre de defeitos após o lançamento inicial.
+    * **Pressões de negócios (prazos apertados que levam a soluções rápidas e de baixa qualidade).**""",
+    
+    """Segundo Dave Farley, qual é a abordagem mais eficiente para produzir software e manter a capacidade de continuar a fazê-lo de forma eficiente, mesmo sob pressão de prazos?
+    
+    * Ignorar a qualidade do código para entregar as funcionalidades rapidamente e lidar com os problemas depois.
+    * Contratar mais pessoas para acelerar a produção, mesmo que isso signifique adicionar código em sistemas não testados.
+    * **Trabalhar com alta qualidade, minimizando sempre a dívida técnica, para que o código seja um lugar de trabalho de alta qualidade e facilmente mantido.**
+    * Focar apenas na entrega de novas funcionalidades, deixando a refatoração e melhorias para um momento futuro mais oportuno."""
