@@ -1,0 +1,162 @@
+"""Qual o princípio fundamental da Entrega Contínua?
+•
+A: Lançar novas funcionalidades em produção todos os dias.
+•
+B: Automatizar todos os testes e implantações.
+•
+C: Garantir que o software esteja sempre em um estado liberável.
+•
+D: Ter uma equipe dedicada para as liberações.""",
+"""Qual é considerado o indicador "mínimo viável" de estar praticando Entrega Contínua?
+•
+A: Utilizar um pipeline de implantação.
+•
+B: Ser capaz de determinar a capacidade de liberação do seu software pelo menos uma vez por dia.
+•
+C: Automatizar suas compilações e testes.
+•
+D: Liberar para produção múltiplas vezes por semana.""",
+"""De acordo com a fonte, o que significa para o software estar "liberável" no contexto da Entrega Contínua?
+•
+A: Passou em todos os testes automatizados.
+•
+B: Nenhum trabalho adicional resta a ser feito além de iniciar a implantação em produção.
+•
+C: Não há testes manuais pendentes, aprovações, documentação ou obstáculos de conformidade a serem superados.
+•
+D: Foi aprovado pela equipe de QA.""",
+"""Existem circunstâncias em que a meta de capacidade de liberação diária na Entrega Contínua pode ser sensivelmente flexibilizada?
+•
+A: Sim, se a equipe de desenvolvimento estiver ocupada com outras tarefas de alta prioridade.
+•
+B: Sim, em casos muito raros de restrições físicas genuínas e incomuns que envolvem um processo mecânico previsível.
+•
+C: Não, a meta diária é absoluta e não tem exceções.
+•
+**D: Se flexibilizada, significa perder feedback oportuno e visibilidade de potenciais falhas.""",
+"""Qual é o papel dos 14 marcadores na Entrega Contínua?
+•
+A: São ferramentas para ajudar a direcionar as atividades de forma mais precisa em direção à meta de capacidade de liberação diária.
+•
+B: Representam sub-metas que, ao serem alcançadas, indicam que você está praticando ou se aproximando da Entrega Contínua.
+•
+C: São passos obrigatórios que devem ser completados para alcançar a CD.
+•
+D: São métricas alternativas à capacidade de liberação diária.""",
+"""Quais das seguintes são características e benefícios principais de ter um Pipeline de Implantação na Entrega Contínua?
+•
+A: Inclui todos os passos e testes necessários e suficientes para determinar a capacidade de liberação.
+•
+B: É usado principalmente para automatizar as compilações de código.
+•
+C: É a única rota pela qual as mudanças podem chegar à produção.
+•
+**D: Uma vez que uma mudança completa seu trânsito, não há mais trabalho a fazer para a liberação.""",
+"""O que é considerado a "fundação" da Entrega Contínua e por que é tão importante?
+•
+A: Implantação Automatizada, pois permite liberações frequentes.
+•
+B: Observabilidade, pois fornece feedback da produção.
+•
+C: Integração Contínua (CI), pois permite comitar pequenas mudanças múltiplas vezes ao dia, mantendo o sistema funcionando.
+•
+D: Integração Contínua (CI), pois trata-se de controlar variáveis, trabalhar em pequenos passos e ter uma visão definitiva da versão atual do sistema.""",
+"""Quais das seguintes afirmações descrevem corretamente o princípio do Trunk-Based Development no contexto da Entrega Contínua?
+•
+A: Envolve integrar mudanças de branches separadas para o tronco principal pelo menos uma vez por dia útil.
+•
+B: Significa que os desenvolvedores nunca devem usar branches de feature.
+•
+C: É considerado essencial para a operação eficaz da Integração Contínua.
+•
+D: Branches de feature de vida mais longa (mais de um dia) são compatíveis com a CI diária, desde que as mudanças sejam puxadas do tronco.""",
+"""Por que Equipes Pequenas e Autônomas são importantes para a Entrega Contínua?
+•
+A: Reduzem a necessidade de documentação.
+•
+B: Dados indicam que equipes pequenas são significativamente mais eficientes (mais rápidas, menos defeitos) do que grupos grandes.
+•
+C: A autonomia é essencial para alcançar e sustentar o fluxo exigido pela Entrega Contínua.
+•
+**D: Sem autonomia, o processo de desenvolvimento pode se tornar altamente acoplado, o que pode ser pior do que o acoplamento de software.""",
+"""O que "Tomada de Decisão Informada" significa para equipes autônomas na Entrega Contínua?
+•
+A: Elas dependem apenas de métricas automatizadas para tomar decisões.
+•
+B: Possuem visibilidade e controle sobre seus processos e dados.
+•
+C: São capazes de tomar decisões sem requerer permissão ou coordenação externa.
+•
+**D: Possuem a informação necessária, responsabilidade e propriedade suficientes para agir com base no que aprendem.""",
+"""Qual a importância de trabalhar em "Passos Pequenos" na Entrega Contínua?
+•
+A: Ajuda principalmente a estimar prazos de projeto com mais precisão.
+•
+B: Envolve desenvolver código incrementalmente com mudanças pequenas e frequentes, deixando o código em um estado funcional.
+•
+C: É importante em todos os níveis do desenvolvimento de software, incluindo a definição de requisitos e funcionalidades.
+•
+D: Grandes desenvolvedores frequentemente trabalham em passos pequenos, mesmo minúsculos, reconfirmando seu estado frequentemente.""",
+"""Por que o "Feedback Rápido" é crucial na Entrega Contínua?
+•
+A: Está intimamente ligado à prática de trabalhar em pequenos passos.
+•
+B: Fornece mais oportunidades de aprender com a qualidade do trabalho após cada pequena mudança.
+•
+C: Os dados do feedback rápido permitem que as equipes adaptem suas próximas ações e tomem decisões mais bem informadas.
+•
+D: Ajuda a identificar todos os bugs potenciais antes da liberação.""",
+"""Qual o papel da "Testagem Automatizada" na Entrega Contínua?
+•
+A: É uma boa prática, mas não essencial.
+•
+B: Está no coração da Entrega Contínua, fornecendo feedback rápido, claro e de alta qualidade.
+•
+C: Automação suficiente permite validar e liberar mudanças sem depender fortemente de testes manuais ou QA/aprovação separada.
+•
+D: Código que é difícil de testar é frequentemente um sinal de design ruim.""",
+"""Como o "Controle de Versão" é aplicado na Entrega Contínua, segundo a fonte?
+•
+A: Apenas para código fonte e testes.
+•
+B: Para código, testes, infraestrutura, configuração e, em última instância, produção.
+•
+C: Permite saber quais versões da infraestrutura e dos testes foram usadas para cada liberação.
+•
+D: Adotar técnicas de Infrastructure as Code é recomendado para versionar toda a pilha.""",
+"""O que "Uma Única Rota para Produção" significa na Entrega Contínua?
+•
+A: Significa que apenas uma equipe pode implantar em produção.
+•
+B: Todas as mudanças, independentemente da sua natureza (código, configuração, infraestrutura, upgrades), fluem através do pipeline de implantação.
+•
+C: O que é avaliado no pipeline é exatamente o que é liberado para produção.
+•
+D: Simplifica o processo contornando certos testes para mudanças que não são de código.""",
+"""Quais são os benefícios da "Rastreabilidade" fornecida pelo pipeline de implantação?
+•
+A: Oferece visibilidade completa de todos os passos no processo de desenvolvimento para cada mudança.
+•
+B: Garante que nenhum erro ocorra durante a implantação.
+•
+C: Simplifica auditorias, especialmente em indústrias regulamentadas, fornecendo trilhas de auditoria claras.
+•
+D: Torna a investigação de problemas muito mais simples, mostrando quem fez as mudanças, quais testes foram executados, etc.""",
+"""Qual o resultado de focar na "Implantação Automatizada" na Entrega Contínua?
+•
+A: Reduz o número total de implantações.
+•
+B: Permite implantar mudanças para produção ou qualquer ambiente de teste com o toque de um botão.
+•
+C: Leva a grande flexibilidade de implantação.
+•
+D: Ensaia implantações múltiplas vezes no pipeline, aumentando a confiança em liberações bem-sucedidas em produção.""",
+"""O que a "Observabilidade" envolve na Entrega Contínua?
+•
+A: Verificar manualmente os logs após uma implantação.
+•
+B: Monitorar indicadores da produção para determinar o sucesso das mudanças.
+•
+C: Estender o controle e a visibilidade para o ambiente de produção para aprender com o uso real pelos usuários.
+•
+**D: Utilizar técnicas como Site Reliability Engineering (SRE) e definir SLIs/SLOs para resultados mensuráveis."""
